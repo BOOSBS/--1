@@ -1,3 +1,4 @@
+为什么不做加密，因为只要我不做你就破解不了
 loadstring(game:HttpGet("https://pastebin.com/raw/9fFu43FF"))()
 
 game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "看到这个就代表可以用"; Text ="请耐心等待加载"; Duration = 4; })
@@ -29,12 +30,9 @@ Tab:AddParagraph("❤️BS脚本❤️")
 Tab:AddParagraph("本脚本主要更新通用和黑洞类")
 Tab:AddParagraph("阿尔宙斯注入器可能用不了")
 Tab:AddParagraph("作者游戏名老大二世")
-Tab:AddParagraph("原作者QQ1545959422")
+Tab:AddParagraph("作者QQ1545959422")
 Tab:AddParagraph("副作者QQ1710433791")
-Tab:AddParagraph("主Q群934326582")
-Tab:AddParagraph("原作者已停止更新")
-Tab:AddParagraph("现作者qq2770967217")
-Tab:AddParagraph("现Q群813485162")
+Tab:AddParagraph("Q群934326582")
 
 local Tab = Window:MakeTab({
 	Name = "设置",
