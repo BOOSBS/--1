@@ -1,4 +1,5 @@
 为什么不做加密，因为只要我不做你就破解不了
+
 loadstring(game:HttpGet("https://pastebin.com/raw/9fFu43FF"))()
 
 game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "看到这个就代表可以用"; Text ="请耐心等待加载"; Duration = 4; })
