@@ -1849,10 +1849,3 @@ Tab:AddButton({
   end
 })
 
-Tab:AddButton({
-	Name = "汉化门",
-	Callback = function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
-    end
-})
