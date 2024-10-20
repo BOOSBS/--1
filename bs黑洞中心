@@ -1792,3 +1792,81 @@ Tab:AddButton({
 getgenv().XiaoPi="蓝标脚本 蓝标群912849177" loadstring(game:HttpGet("https://raw.githubusercontent.com/THDZEP/Blue-blue-blue/refs/heads/main/%E5%8F%91%E7%A5%A8%E8%93%9D%E6%A0%87"))()
   end
 })
+
+local Tab = Window:MakeTab({
+    Name = "doors",
+    Icon = "rbxassetid://7734068321",
+    PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "手电筒（没电会有bug）",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Normal%20Flashlight"))()
+    end
+})
+
+Tab:AddButton({
+  Name = "夜视仪",
+  Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ChinaQY/Scripts/Main/NVCS-3000"))()
+  end
+})
+
+Tab:AddButton({
+	Name = "神圣炸弹",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/HolyGrenadeByNerd.lua"))()
+    end
+})
+
+Tab:AddButton({
+	Name = "十字架",
+    Callback = function()
+loadstring(game:HttpGet('https://gist.githubusercontent.com/C00LBOZO/0c78ad8c74ca26324c87ede16ce8b387/raw/c0887ac0d24fde80bea11ab1a6a696ec296af272/Crucifix'))()
+    end
+})
+
+Tab:AddButton({
+  Name = "剪刀",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/shears_done.lua"))()
+  end
+})
+
+Tab:AddButton({
+  Name = "骷髅钥匙",
+  Callback = function ()
+    local item = game:GetObjects("rbxassetid://11697889137")[1]item.Parent = game.Players.LocalPlayer.Backpack
+  end
+})
+
+Tab:AddButton({
+	Name = "紫色手电筒（在电梯购买东西的时候使用）",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Purple%20Flashlight"))()
+end
+})
+
+Tab:AddButton({
+  Name = "可以清除东西的枪",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Laser%20Gun"))()
+  end
+})
+
+Tab:AddButton({
+  Name = "磁铁",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/MagnetByNerd.lua"))()
+  end
+})
+
+Tab:AddButton({
+	Name = "汉化门",
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+    end
+})
