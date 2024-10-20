@@ -31,7 +31,9 @@ Tab:AddParagraph("阿尔宙斯注入器可能用不了")
 Tab:AddParagraph("作者游戏名老大二世")
 Tab:AddParagraph("作者QQ1545959422")
 Tab:AddParagraph("副作者QQ1710433791")
-Tab:AddParagraph("Q群934326582")
+Tab:AddParagraph("原作者已停止更新")
+Tab:AddParagraph("Q群813485162")
+Tab:AddParagraph("现作者Q2770967217")
 
 local Tab = Window:MakeTab({
 	Name = "设置",
@@ -1743,51 +1745,50 @@ Tab:AddButton({
   end
 })
 Tab:AddButton({
-	Name = "doors(中文)",
+	Name = "xk脚本中心",
 	Callback = function()
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/EntitySpawner/main/doors(orionlib).lua"))()
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\66\73\78\106\105\97\111\98\122\120\54\47\66\73\78\106\105\97\111\47\109\97\105\110\47\88\75\46\84\88\84\34\41\41\40\41\10")()
   	end    
 })
 
 Tab:AddButton({
-  Name = "俄亥俄州",
+  Name = "皮脚本",
   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/rbxluau/Roblox/main/ScriptHub.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xiaopi77/xiaopi77/main/QQ1002100032-Roblox-Pi-script.lua"))()
   end
 })
 
 Tab:AddButton({
-  Name = "俄亥俄州自动印钞机",
+  Name = "tm脚本中心",
   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/PUSCRIPTS/MONEY-PRINTER-YAY/main/MONEY"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FZIKNEZNTAXSUGVD/-1/main/%E8%87%AA%E5%88%B6%E8%84%9A%E6%9C%AC"))()
   end
 })
 
 Tab:AddButton({
-  Name = "极速传奇",
+  Name = "导管中心",
   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/TtmScripter/GoodScript/main/LegendOfSpeed(Chinese)"))()
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\117\115\101\114\97\110\101\119\114\102\102\47\114\111\98\108\111\120\45\47\109\97\105\110\47\37\69\54\37\57\68\37\65\49\37\69\54\37\65\67\37\66\69\37\69\53\37\56\68\37\56\70\37\69\56\37\65\69\37\65\69\34\41\41\40\41\10")()
+ end
+})
+
+Tab:AddButton({
+  Name = "情云脚本中心",
+  Callback = function()
+loadstring(utf8.char((function() return table.unpack({108,111,97,100,115,116,114,105,110,103,40,103,97,109,101,58,72,116,116,112,71,101,116,40,34,104,116,116,112,115,58,47,47,114,97,119,46,103,105,116,104,117,98,117,115,101,114,99,111,110,116,101,110,116,46,99,111,109,47,67,104,105,110,97,81,89,47,45,47,109,97,105,110,47,37,69,54,37,56,51,37,56,53,37,69,52,37,66,65,37,57,49,34,41,41,40,41})end)()))()
   end
 })
 
 Tab:AddButton({
-  Name = "监狱人生(变钢铁侠)",
+  Name = "落叶中心",
   Callback = function()
-loadstring(game:HttpGet("https://pastebin.com/raw/7prijqYH"))()
+getgenv().LS="落叶中心" loadstring(game:HttpGet("https://raw.githubusercontent.com/krlpl/Deciduous-center-LS/main/%E8%90%BD%E5%8F%B6%E4%B8%AD%E5%BF%83%E6%B7%B7%E6%B7%86.txt"))()
   end
 })
 
 Tab:AddButton({
-  Name = "极速传奇(云脚本)",
+  Name = "蓝标",
   Callback = function()
-
-loadstring(game:HttpGet("https://pastebin.com/raw/HzhPC0dY"))()
-  end
-})
-
-Tab:AddButton({
-  Name = "门(卡密:nrty)",
-  Callback = function()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/zuohongjian/bjb/main/ZS%20III"))()
+getgenv().XiaoPi="蓝标脚本 蓝标群912849177" loadstring(game:HttpGet("https://raw.githubusercontent.com/THDZEP/Blue-blue-blue/refs/heads/main/%E5%8F%91%E7%A5%A8%E8%93%9D%E6%A0%87"))()
   end
 })
