@@ -1849,3 +1849,10 @@ Tab:AddButton({
   end
 })
 
+Tab:AddButton({
+  Name = "nb doors",
+  Callback = function()
+   loadstring(game:HttpGet("https://github.com/DocYogurt/Main/raw/main/Scripts/DF2RW.lua"))()
+  end
+})
+
