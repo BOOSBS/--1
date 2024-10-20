@@ -1822,13 +1822,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/ma
 })
 
 Tab:AddButton({
-	Name = "十字架",
-    Callback = function()
-loadstring(game:HttpGet('https://gist.githubusercontent.com/C00LBOZO/0c78ad8c74ca26324c87ede16ce8b387/raw/c0887ac0d24fde80bea11ab1a6a696ec296af272/Crucifix'))()
-    end
-})
-
-Tab:AddButton({
   Name = "剪刀",
   Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/shears_done.lua"))()
@@ -1847,13 +1840,6 @@ Tab:AddButton({
 	Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Purple%20Flashlight"))()
 end
-})
-
-Tab:AddButton({
-  Name = "可以清除东西的枪",
-  Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Laser%20Gun"))()
-  end
 })
 
 Tab:AddButton({
